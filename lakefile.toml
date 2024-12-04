@@ -1,0 +1,15 @@
+name = "tree-lean"
+version = "0.1.0"
+defaultTargets = ["tree-lean"]
+
+[[lean_lib]]
+name = "TreeLean"
+
+[[lean_exe]]
+name = "tree-lean"
+root = "Main"
+
+[[require]]
+name = "batteries"
+scope = "leanprover-community"
+rev = "main"
